@@ -49,13 +49,14 @@ bash icp_scorer.sh leads.csv
 
 clay-icp-scorer/
 
-  icp_scorer.sh        #  Main script
-  .env                 #  Slack webhook URL (not committed)
-  .gitignore           #  Excludes .env
-  leads.csv            #  Your Clay export (not committed)
-  versions/            #  Saved versions v1 through v4
-  screenshots/         #  Terminal and Slack output screenshots
-  README.md
+  
+    icp_scorer.sh        #  Main script
+    .env                 #  Slack webhook URL (not committed)
+    .gitignore           #  Excludes .env
+    leads.csv            #  Your Clay export (not committed)
+    versions/            #  Saved versions v1 through v4
+    screenshots/         #  Terminal and Slack output screenshots
+    README.md
 
 ## Built by 
 Frances Ehinor gtm.francesehinor.com
