@@ -119,13 +119,13 @@ while IFS= read -r line; do
     HOT_COUNT=$((HOT_COUNT + 1))
 
     SLACK_MESSAGE="{
-      \"text\": \"🔥 Hot Lead Detected\",
+      \"text\": \"📌Hot Lead Detected\",
       \"blocks\": [
         {
           \"type\": \"section\",
           \"text\": {
             \"type\": \"mrkdwn\",
-            \"text\": \"*🔥 Hot Lead: $NAME*\n*Title:* $TITLE\n*Company:* $COMPANY\n*Location:* $LOCATION\n*Industry:* $INDUSTRY\n*Funding:* $FUNDING\n*Score:* $SCORE / 7\n*LinkedIn:* $LINKEDIN\"
+            \"text\": \"📌Hot Lead: $NAME*\n*Title:* $TITLE\n*Company:* $COMPANY\n*Location:* $LOCATION\n*Industry:* $INDUSTRY\n*Funding:* $FUNDING\n*Score:* $SCORE / 7\n*LinkedIn:* $LINKEDIN\"
           }
         }
       ]
