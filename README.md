@@ -43,11 +43,11 @@ SLACK_WEBHOOK_URL="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
 
 
 ## RUN SCRIPTS
-bash icp_scorer.sh leads.csv
+    bash icp_scorer.sh leads.csv
 
 ## Project Structure
 
-clay-icp-scorer/
+  clay-icp-scorer/
 
   
     icp_scorer.sh        #  Main script
@@ -59,4 +59,5 @@ clay-icp-scorer/
     README.md
 
 ## Built by 
-Frances Ehinor gtm.francesehinor.com
+  Frances Ehinor 
+  gtm.francesehinor.com
