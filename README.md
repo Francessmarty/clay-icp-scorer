@@ -33,12 +33,12 @@ An automated ICP lead scoring system built in Bash that processes Clay lead expo
 ## How to use
 
 1. Export your Clay table as CSV
-2. Clean the CSV -- remove columns with long text fields like Summary and Headline
+2. Clean the CSV remove columns with long text fields like Summary and Headline
 3. Replace commas in Location and Name fields with dashes using Find and Replace
 4. Add your Slack webhook URL to a `.env` file:
 
 
-SLACK_WEBHOOK_URL="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+    SLACK_WEBHOOK_URL="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
 
 
 
