@@ -1,11 +1,11 @@
 # Clay ICP Scorer
 
-An automated ICP lead scoring system built in Bash that processes Clay lead exports, scores each contact against 7 ICP criteria, and routes hot leads to Slack in real time.
+An automated ICP lead scoring system built in Bash that processes Clay lead exports, scores each contact against 6 ICP criteria, and routes hot leads to Slack in real time.
 
 ## What it does
 
 - Reads a Clay CSV export of 100 leads
-- Scores each lead out of 7 against ICP criteria
+- Scores each lead out of 8 against ICP criteria
 - Automatically sends hot leads (score 5 and above) to a Slack channel via webhook
 - Reduced manual lead review from 2 hours to under 5 minutes
 
@@ -20,7 +20,7 @@ An automated ICP lead scoring system built in Bash that processes Clay lead expo
 | Funding: Seed, Series A, B, C, Bootstrapped | 1 |
 | LinkedIn URL present | 1 |
 
-**Total: 7 points. Hot lead threshold: 5 and above.**
+**Total: 8 points. Hot lead threshold: 5 and above.**
 
 ## Stack
 

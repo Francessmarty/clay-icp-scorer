@@ -112,7 +112,7 @@ while IFS= read -r line; do
     SCORE=$((SCORE + 1))
   fi
 
-  echo "Name: $NAME | Score: $SCORE / 7"
+  echo "Name: $NAME | Score: $SCORE / 8"
 
   if [[ "$SCORE" -ge 5 ]]; then
 
