@@ -50,12 +50,11 @@ An automated ICP lead scoring system built in Bash that processes Clay lead expo
   clay-icp-scorer/
 
   
-    icp_scorer.sh        #  Main script
-    .env                 #  Slack webhook URL (not committed)
-    .gitignore           #  Excludes .env
-    leads.csv            #  Your Clay export (not committed)
-    versions/            #  Saved versions v1 through v4
-    screenshots/         #  Terminal and Slack output screenshots
+    icp_scorer.sh        
+    .env                 
+    .gitignore          
+    leads.csv            
+    screenshots/         
     README.md
 
 ## Built by 
