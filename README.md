@@ -50,8 +50,7 @@ An automated ICP lead scoring system built in Bash that processes Clay lead expo
   clay-icp-scorer/
 
   
-    icp_scorer.sh        
-    .env                 
+    icp_scorer.sh            
     .gitignore          
     leads.csv            
     screenshots/         
