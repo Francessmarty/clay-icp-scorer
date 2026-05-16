@@ -59,4 +59,4 @@ An automated ICP lead scoring system built in Bash that processes Clay lead expo
 ## Built by 
       Frances Ehinor 
 
-      gtm.francesehinor.com
+      francesbuilds.com
