@@ -125,7 +125,7 @@ while IFS= read -r line; do
           \"type\": \"section\",
           \"text\": {
             \"type\": \"mrkdwn\",
-            \"text\": \"📌Hot Lead: $NAME*\n*Title:* $TITLE\n*Company:* $COMPANY\n*Location:* $LOCATION\n*Industry:* $INDUSTRY\n*Funding:* $FUNDING\n*Score:* $SCORE / 7\n*LinkedIn:* $LINKEDIN\"
+            \"text\": \"📌Hot Lead: $NAME*\n*Title:* $TITLE\n*Company:* $COMPANY\n*Location:* $LOCATION\n*Industry:* $INDUSTRY\n*Funding:* $FUNDING\n*Score:* $SCORE / 8\n*LinkedIn:* $LINKEDIN\"
           }
         }
       ]
